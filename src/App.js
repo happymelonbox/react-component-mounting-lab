@@ -11,7 +11,14 @@ class App extends Component {
 
 
   //Your code here:
+componentDidMount(){
+this.renderTimers()
+this.handleAddTimer()
+}
 
+componentWillUnmount(){
+this.removeTimer()
+}
 
 
 
